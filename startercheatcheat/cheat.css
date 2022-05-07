@@ -7,29 +7,53 @@
 
 .container{
     border:4px solid green;
-    padding:24px;
+    padding:24px 24px 24px 24px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+
+}
+.row{
+    width:600px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.box {
-    width:300px;
-    height:100px;
-    border: solid black 1px;
-    margin-bottom: 24px;
+.box{
+   
+    border:1px solid black;
+    margin-bottom:24px;
 }
 
-.bigger-box {
-    border:solid black 1px;
-    height:350px;
-    width:50%;
-}
-
-.wrapper{
-    width:50%;
-
+.largebox{
+    width:45%;
    
 }
+    
+.wrapper {
+    width:45%;
+    display: flex;
+    flex-direction:column;
+
+
+}
+
+.wrapper2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxtiny{
+    width:30%;
+    height:50px;
+    
+}
+
+.box-small{
+    height:24px;
+    
+}
+
 
 
 
